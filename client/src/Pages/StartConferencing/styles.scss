@@ -1,0 +1,98 @@
+.homeContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    .homeWrapper {
+        padding: 1rem;
+
+        .newMeeting {
+            cursor: pointer;
+            display: block;
+            color: white;
+            width: 12rem;
+            height: 3rem;
+            font-size: 1rem;
+            background-color: rgb(34, 126, 97);
+            border: none;
+            border-radius: 4px;
+            margin: 2rem 0 1rem 0;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            background: linear-gradient(to right, #22a06a, #1e8f5b);
+   
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            &:hover{
+                background-color: rgb(33, 128, 97);
+                transform: scale(1.05);
+
+            }
+
+        }
+
+        .code {
+            border: none;
+            display: inline;
+            width: 12rem;
+            height: 3rem;
+            background-color: inherit;
+            border: 1px solid rgb(33, 103, 81);
+            border-radius: 4px;
+            padding-left: 10px;
+            margin: 2rem 0 1rem 0;
+            transition: border-color 0.3s ease;
+
+            &::placeholder {
+                color: rgb(32, 125, 79);
+            }
+
+            &:focus {
+                border: 1px solid  rgb(44, 138, 108);
+                outline: none;
+                &::placeholder {
+                    color: transparent;
+                }
+
+            }
+        }
+    }
+
+    .logout {
+        margin: 2rem 0 1rem 1rem;
+        width: 5rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(150, 22, 22);
+        color: rgb(201, 206, 203);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        &:hover {
+            // background-color: rgb(185, 32, 32);
+            transform: scale(1.09);
+          }
+    }
+
+    .join {
+        display: none;
+        background-color: none;
+        color: rgb(155, 188, 201);
+        margin: 2rem 2rem;
+        width: fit-content;
+        cursor: pointer;
+        // transition: color 0.3s ease;
+        transition: font-size 0.3s ease, transform 0.3s ease;
+        &:hover{
+            color: rgb(8, 168, 231);
+            font-size: 1.0625rem;
+        }
+    }
+}
+
+
+  
+  
+  
+  
