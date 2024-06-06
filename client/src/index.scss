@@ -1,0 +1,41 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgb(255, 255, 255);
+    background-color: #242424;
+  
+      --detailbanner: #04152d;
+      --black:#2b2d30;
+      --dark: rgb(0, 6, 49);
+      --black:rgb(0, 0, 0);
+      --black2:rgb(24, 24, 27);
+      --black3:#273c44;
+      --pink: #da2f68;
+      --red:rgb(192, 44, 44);
+      --black-lighter: #2b3038;
+      
+      
+      --opacity: linear-gradient(90.37deg,#4d4f52 10%,   #223b50  90%);
+      --detailGradient: linear-gradient(0.37deg,#04205c .99%,   #08497e  100%);
+      --gradient2: linear-gradient(0.37deg, #003f86 .99%, #011133 100%);
+      --gradient3: linear-gradient(98.37deg, #126291 .99%, #273c44 100%);
+      --gradient4: linear-gradient(98.37deg, #7da6c2 0.99%, #3b3c58 100%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: rgb(87, 86, 86);
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
